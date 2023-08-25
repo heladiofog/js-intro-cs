@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  
+
   <!-- 🔥🔥🔥🔥🔥🔥🔥 JS code 🔥🔥🔥🔥🔥🔥🔥 -->
   <script>
     // Strings
@@ -66,6 +66,30 @@
     console.log(alumnis[0]);
     console.log(alumnis[0][2]);
     // console.log(alumnis.name);
+
+    // Array of Objects
+    const proStrudents = [
+      { name: 'Liz' },
+      { name: 'Pao' },
+      { name: 'Zen' }
+    ];
+    console.log(`User name is ${proStrudents[2].name}`);
+
+    // declaring variables
+    // before ES5
+    var myOldVariable = 'Old Vars';
+    const constVariable = 'Constant variable.'; // properties of objects are allowed to change
+    let letVariable = 'Let variable';
+    console.log(myOldVariable,);
+    console.log(constVariable);
+    console.log(letVariable);
+    // constVariable = 'New String'; // error
+    // ===================
+    let undefinedVariable;
+    console.log(undefinedVariable);
+    undefinedVariable = 'Now it is defined!';
+    console.log(undefinedVariable);
   </script>
 </body>
+
 </html>
